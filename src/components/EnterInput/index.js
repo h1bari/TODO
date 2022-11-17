@@ -15,6 +15,7 @@ const EnterInput = ({add}) => {
     //     console.log(e.hex)
     //     setColor(e.hex)
     // }
+    
     return(
         <div>
             <input className="enter-input" type="text" value={text}  onChange={(e) => setText(e.target.value)}/>
